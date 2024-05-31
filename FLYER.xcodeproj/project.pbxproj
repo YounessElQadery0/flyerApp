@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B986552B693605000D56CE /* FLYERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986542B693605000D56CE /* FLYERApp.swift */; };
+		63B986572B693605000D56CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986562B693605000D56CE /* ContentView.swift */; };
+		63B986592B693607000D56CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B986582B693607000D56CE /* Assets.xcassets */; };
+		63B9865D2B693607000D56CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B9865C2B693607000D56CE /* Preview Assets.xcassets */; };
+		63B986672B693607000D56CE /* FLYERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986662B693607000D56CE /* FLYERTests.swift */; };
+		63B986712B693607000D56CE /* FLYERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986702B693607000D56CE /* FLYERUITests.swift */; };
+		63B986732B693607000D56CE /* FLYERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986722B693607000D56CE /* FLYERUITestsLaunchTests.swift */; };
+		63B986912B6EE066000D56CE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986902B6EE066000D56CE /* MapView.swift */; };
+		63B986932B6EE07A000D56CE /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986922B6EE07A000D56CE /* PostView.swift */; };
+		63B986952B6EE08B000D56CE /* MyWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986942B6EE08B000D56CE /* MyWallView.swift */; };
+		63B986972B6EE10B000D56CE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986962B6EE10B000D56CE /* CameraViewController.swift */; };
+		63B986992B6EE181000D56CE /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986982B6EE181000D56CE /* LocationView.swift */; };
+		63B9869B2B6EE1AB000D56CE /* MapSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9869A2B6EE1AB000D56CE /* MapSearch.swift */; };
+		63B9869E2B6EE85C000D56CE /* FlyersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9869D2B6EE85C000D56CE /* FlyersView.swift */; };
+		63B986A02B6EE88F000D56CE /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B9869F2B6EE88F000D56CE /* FavouritesView.swift */; };
+		63B986A22B6EE8CB000D56CE /* MyPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B986A12B6EE8CB000D56CE /* MyPostView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B986632B693607000D56CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B986492B693605000D56CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B986502B693605000D56CE;
+			remoteInfo = FLYER;
+		};
+		63B9866D2B693607000D56CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B986492B693605000D56CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B986502B693605000D56CE;
+			remoteInfo = FLYER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B986512B693605000D56CE /* FLYER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLYER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B986542B693605000D56CE /* FLYERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLYERApp.swift; sourceTree = "<group>"; };
+		63B986562B693605000D56CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63B986582B693607000D56CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B9865A2B693607000D56CE /* FLYER.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FLYER.entitlements; sourceTree = "<group>"; };
+		63B9865C2B693607000D56CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63B986622B693607000D56CE /* FLYERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLYERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B986662B693607000D56CE /* FLYERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLYERTests.swift; sourceTree = "<group>"; };
+		63B9866C2B693607000D56CE /* FLYERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLYERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B986702B693607000D56CE /* FLYERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLYERUITests.swift; sourceTree = "<group>"; };
+		63B986722B693607000D56CE /* FLYERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLYERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63B986902B6EE066000D56CE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		63B986922B6EE07A000D56CE /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		63B986942B6EE08B000D56CE /* MyWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWallView.swift; sourceTree = "<group>"; };
+		63B986962B6EE10B000D56CE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		63B986982B6EE181000D56CE /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		63B9869A2B6EE1AB000D56CE /* MapSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearch.swift; sourceTree = "<group>"; };
+		63B9869D2B6EE85C000D56CE /* FlyersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyersView.swift; sourceTree = "<group>"; };
+		63B9869F2B6EE88F000D56CE /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		63B986A12B6EE8CB000D56CE /* MyPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B9864E2B693605000D56CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9865F2B693607000D56CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B986692B693607000D56CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B986482B693605000D56CE = {
+			isa = PBXGroup;
+			children = (
+				63B986532B693605000D56CE /* FLYER */,
+				63B986652B693607000D56CE /* FLYERTests */,
+				63B9866F2B693607000D56CE /* FLYERUITests */,
+				63B986522B693605000D56CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B986522B693605000D56CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B986512B693605000D56CE /* FLYER.app */,
+				63B986622B693607000D56CE /* FLYERTests.xctest */,
+				63B9866C2B693607000D56CE /* FLYERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B986532B693605000D56CE /* FLYER */ = {
+			isa = PBXGroup;
+			children = (
+				63B986542B693605000D56CE /* FLYERApp.swift */,
+				63B9869C2B6EE28C000D56CE /* Main Views */,
+				63B986962B6EE10B000D56CE /* CameraViewController.swift */,
+				63B9869A2B6EE1AB000D56CE /* MapSearch.swift */,
+				63B986982B6EE181000D56CE /* LocationView.swift */,
+				63B986582B693607000D56CE /* Assets.xcassets */,
+				63B9865A2B693607000D56CE /* FLYER.entitlements */,
+				63B9865B2B693607000D56CE /* Preview Content */,
+			);
+			path = FLYER;
+			sourceTree = "<group>";
+		};
+		63B9865B2B693607000D56CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63B9865C2B693607000D56CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63B986652B693607000D56CE /* FLYERTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B986662B693607000D56CE /* FLYERTests.swift */,
+			);
+			path = FLYERTests;
+			sourceTree = "<group>";
+		};
+		63B9866F2B693607000D56CE /* FLYERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B986702B693607000D56CE /* FLYERUITests.swift */,
+				63B986722B693607000D56CE /* FLYERUITestsLaunchTests.swift */,
+			);
+			path = FLYERUITests;
+			sourceTree = "<group>";
+		};
+		63B9869C2B6EE28C000D56CE /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				63B986562B693605000D56CE /* ContentView.swift */,
+				63B986902B6EE066000D56CE /* MapView.swift */,
+				63B986922B6EE07A000D56CE /* PostView.swift */,
+				63B986942B6EE08B000D56CE /* MyWallView.swift */,
+				63B9869D2B6EE85C000D56CE /* FlyersView.swift */,
+				63B9869F2B6EE88F000D56CE /* FavouritesView.swift */,
+				63B986A12B6EE8CB000D56CE /* MyPostView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B986502B693605000D56CE /* FLYER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B986762B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYER" */;
+			buildPhases = (
+				63B9864D2B693605000D56CE /* Sources */,
+				63B9864E2B693605000D56CE /* Frameworks */,
+				63B9864F2B693605000D56CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLYER;
+			productName = FLYER;
+			productReference = 63B986512B693605000D56CE /* FLYER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B986612B693607000D56CE /* FLYERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B986792B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYERTests" */;
+			buildPhases = (
+				63B9865E2B693607000D56CE /* Sources */,
+				63B9865F2B693607000D56CE /* Frameworks */,
+				63B986602B693607000D56CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B986642B693607000D56CE /* PBXTargetDependency */,
+			);
+			name = FLYERTests;
+			productName = FLYERTests;
+			productReference = 63B986622B693607000D56CE /* FLYERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B9866B2B693607000D56CE /* FLYERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B9867C2B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYERUITests" */;
+			buildPhases = (
+				63B986682B693607000D56CE /* Sources */,
+				63B986692B693607000D56CE /* Frameworks */,
+				63B9866A2B693607000D56CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B9866E2B693607000D56CE /* PBXTargetDependency */,
+			);
+			name = FLYERUITests;
+			productName = FLYERUITests;
+			productReference = 63B9866C2B693607000D56CE /* FLYERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B986492B693605000D56CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					63B986502B693605000D56CE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					63B986612B693607000D56CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63B986502B693605000D56CE;
+					};
+					63B9866B2B693607000D56CE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63B986502B693605000D56CE;
+					};
+				};
+			};
+			buildConfigurationList = 63B9864C2B693605000D56CE /* Build configuration list for PBXProject "FLYER" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B986482B693605000D56CE;
+			productRefGroup = 63B986522B693605000D56CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B986502B693605000D56CE /* FLYER */,
+				63B986612B693607000D56CE /* FLYERTests */,
+				63B9866B2B693607000D56CE /* FLYERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B9864F2B693605000D56CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B9865D2B693607000D56CE /* Preview Assets.xcassets in Resources */,
+				63B986592B693607000D56CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B986602B693607000D56CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9866A2B693607000D56CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B9864D2B693605000D56CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B986572B693605000D56CE /* ContentView.swift in Sources */,
+				63B986912B6EE066000D56CE /* MapView.swift in Sources */,
+				63B986932B6EE07A000D56CE /* PostView.swift in Sources */,
+				63B986552B693605000D56CE /* FLYERApp.swift in Sources */,
+				63B986A22B6EE8CB000D56CE /* MyPostView.swift in Sources */,
+				63B986992B6EE181000D56CE /* LocationView.swift in Sources */,
+				63B986952B6EE08B000D56CE /* MyWallView.swift in Sources */,
+				63B9869E2B6EE85C000D56CE /* FlyersView.swift in Sources */,
+				63B9869B2B6EE1AB000D56CE /* MapSearch.swift in Sources */,
+				63B986A02B6EE88F000D56CE /* FavouritesView.swift in Sources */,
+				63B986972B6EE10B000D56CE /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B9865E2B693607000D56CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B986672B693607000D56CE /* FLYERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B986682B693607000D56CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B986712B693607000D56CE /* FLYERUITests.swift in Sources */,
+				63B986732B693607000D56CE /* FLYERUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B986642B693607000D56CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B986502B693605000D56CE /* FLYER */;
+			targetProxy = 63B986632B693607000D56CE /* PBXContainerItemProxy */;
+		};
+		63B9866E2B693607000D56CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B986502B693605000D56CE /* FLYER */;
+			targetProxy = 63B9866D2B693607000D56CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63B986742B693607000D56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to take photos of flyers and share them.";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B986752B693607000D56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to take photos of flyers and share them.";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		63B986772B693607000D56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FLYER/FLYER.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FLYER/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KAAQV7X7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to take photos of flyers and share them.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.younesselqadery.FLYER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B986782B693607000D56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FLYER/FLYER.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FLYER/Preview Content\"";
+				DEVELOPMENT_TEAM = 8KAAQV7X7B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This will allow you to take photos of flyers and share them.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.younesselqadery.FLYER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B9867A2B693607000D56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremarslaner.FLYERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLYER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FLYER";
+			};
+			name = Debug;
+		};
+		63B9867B2B693607000D56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremarslaner.FLYERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLYER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FLYER";
+			};
+			name = Release;
+		};
+		63B9867D2B693607000D56CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremarslaner.FLYERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLYER;
+			};
+			name = Debug;
+		};
+		63B9867E2B693607000D56CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iremarslaner.FLYERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLYER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B9864C2B693605000D56CE /* Build configuration list for PBXProject "FLYER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B986742B693607000D56CE /* Debug */,
+				63B986752B693607000D56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B986762B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B986772B693607000D56CE /* Debug */,
+				63B986782B693607000D56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B986792B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9867A2B693607000D56CE /* Debug */,
+				63B9867B2B693607000D56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B9867C2B693607000D56CE /* Build configuration list for PBXNativeTarget "FLYERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B9867D2B693607000D56CE /* Debug */,
+				63B9867E2B693607000D56CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B986492B693605000D56CE /* Project object */;
+}
